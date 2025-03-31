@@ -1,0 +1,102 @@
+/* sections */
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: "Source Sans 3", serif;
+    width: 375px;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 16px 0;
+    margin-bottom: 15px;
+}
+
+.container1{
+    display: flex;
+    justify-content: start;
+
+}
+
+/*typography*/
+
+
+h1{
+    margin: 0 0 0 10px;
+}
+
+h2{
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin: 0 0 20px 11px;
+
+}
+p,h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#likes{
+    margin:10px auto;
+}
+
+#comment{
+    font-weight:normal;
+    
+}
+
+#username, #comment{
+    display: inline-block;
+    margin: 0 1px;
+}
+
+
+
+/* Pictures, Icons */
+
+.icons{
+    display: flex;
+    flex-direction: row;/* Ensures items are spaced evenly */
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0; /* Removes default padding */
+    list-style-type: none;
+    margin-bottom:2px;
+}
+
+
+.dm,.comment,.heart{
+    width:23px;
+    height:22.31px;
+    padding:5px 5px
+}
+
+
+.logo{
+    width:127px;
+    height: 33px;
+    margin: 0 ;
+    object-fit: cover;
+    overflow: visible;
+}
+
+.user, #avatar{
+    width:34px;
+    height:34px;
+    border-radius: 50%;
+}
+
+.painting{
+width: 375px;
+height: 375px;
+}
+
+
+
+
+
+

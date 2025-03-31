@@ -1,0 +1,53 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="index2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="header-inner">
+			<img src="./images/gracie.png" class="pumpkin-img">
+			<div>
+				<h2>Gracie's Purrfect...</h2>
+				<h1>Meme Picker</h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<h3>Select Your Current Emotion</h3>
+		<div class="controls-container">
+			
+			<div class="emotion-dropdown" id="emotion-dropdown"></div>
+				<select class="emotion-select" id="emotion-select">
+					<option value="hungry">hungry</option>
+                    <option value="insomniac">insomniac</option>
+                    <option value="relaxed">relaxed</option>
+                    <option value="sad">sad</option>
+                    <option value="scared">scared</option>
+					<option value="happy">happy</option>
+					<option value="moody">moody</option>
+					<option value="confused">confused</option>
+					<option value="dominant">dominant</option>
+				</select>
+		
+	
+
+			<div class="gifs-check">
+				<label for="gifs-only-option" class="gifs-check-label">Animated GIFs only</label>
+				<input type="checkbox" id="gifs-only-option">
+			</div>
+			<button class="get-image-btn" id="get-image-btn">Get Image</button>
+		</div>
+	</main>
+		<div class="meme-modal" id="meme-modal">
+			<button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
+			<div id="meme-modal-inner"></div>
+		</div>
+	<script src="index2.js" type="module"></script>
+</body>
+
+</html>

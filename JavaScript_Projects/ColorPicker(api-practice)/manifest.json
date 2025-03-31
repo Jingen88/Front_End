@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "version": "1.1",
+  "name": "Color Scheme App",
+  "action": {
+      "default_popup": "index.html",
+      "default_icon": "android-chrome-192x192.png"
+  }
+}

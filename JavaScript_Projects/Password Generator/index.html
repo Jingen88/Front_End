@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">   
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Password-Generator</title>      
+ </head>
+        <body>
+
+<div class="container">
+    <div class="text">
+        <h1>Generate a</h1>
+        <h1 class="green">random password</h1>
+        <h2>Never use an insecure password again.</h2>
+    </div>
+
+    <button class="passwordbtn" onclick="passwordGen()">Generate Passwords</button>
+    
+    <div class="output">
+
+        <div class="output1"><p id="passworda-el"></p></div>
+        <div class="output2"><p id="passwordb-el"></p></div>
+
+    </div>
+
+        <button class="copy-btn" id="copy-pwd" onclick="copyToClick()">Copy to clipboard</button>
+
+</div>
+
+
+
+
+
+
+        <script src="index.js"></script>
+        </body>
+</html>

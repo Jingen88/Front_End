@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+    width: 600px; 
+}
+
+header {
+    background-image: url("./images/burger.jpg");
+    background-size: cover;
+    color: white;
+    height: 167px;
+    background-position: center;
+}
+
+.food-list {
+    width: 600px; 
+}
+
+.food-item-container {
+    display: flex;
+    gap: 10px;
+}
+
+.food-item-emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 89px;
+    align-self: center;
+}
+
+.food-item-emoji p {
+    font-size: 70px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    width: 508px; 
+    border-bottom: 1px solid black;
+    margin: 45px auto;
+    align-items: center;
+}
+
+.food-item-button {
+    border: 1.5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    width: 508px; 
+    margin: 45px auto; 
+}
+
+.checkout-title {
+    align-self: center;
+}
+
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-item-text {
+    display: flex;
+}
+
+.checkout-item-text button {
+    background: none;
+    border: none;
+    color: brown;
+}
+
+.combined-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-btn-container button {
+    width: 100%;
+}
