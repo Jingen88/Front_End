@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # or your framework's build command
+  publish = "build"         # or "dist", "out", etc.
